@@ -14,6 +14,7 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
@@ -24,12 +25,31 @@
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
+  
+  
+  background-image:linear-gradient(112.65deg, rgba(106, 0, 123, 0.9) 10.79%, rgba(65, 0, 170, 0.78) 87.8%), url('/src/assets/background.jpg');
+
+  height: 650px;
+
+  
 
   .hero-title {
-    font-size: 5.6rem;
-    font-weight: 700;
-    margin-bottom: 3.2rem;
-    text-align: left;
+    height: 76px;
+    width: 563px;
+    left: 438px;
+    top: 208px;
+    border-radius: nullpx;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: 0em;
+    
+    
+
+
+
+
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -45,6 +65,16 @@
     @include respond(phone-xs) {
       font-size: 2.8rem;
     }
+  }
+
+  .sub-title{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+    text-align: center;
+    
+
   }
 
   .hero-cta {
