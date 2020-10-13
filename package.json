@@ -3,10 +3,7 @@
   "version": "1.0.1",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "main": "index.js",
-  "scripts": {
-   
-    "start": "webpack --config webpack.prod.js"
-  },
+ 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cobidev/simplefolio"
